@@ -1,0 +1,34 @@
+# Aula01
+public class SomaMult {
+
+
+
+    public static void main(String[] args) {
+
+        int soma = 0, mult = 0, valor = 30;
+
+        for (int i = 0; i < valor + 1; i++) {
+
+            if (i % 2 == 1) {
+
+                soma = soma + i;
+
+            }
+
+            if (i % 2 == 0) {
+
+                mult = mult * i;
+
+            }
+
+
+
+        }
+
+        System.out.println("A soma dos numeros impares é : "+soma+", e a multiplicação dos pares é : "+mult);
+
+    }
+
+
+
+}
