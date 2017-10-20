@@ -13,7 +13,7 @@ public class CamaroteSuperior extends Vip {
 
 
 
-    public String getLocalizacaoS() {
+    public String getLocalizacao() {
 
         return localizacao;
 
@@ -21,7 +21,7 @@ public class CamaroteSuperior extends Vip {
 
 
 
-    public void setLocalizacaoS(String localizacao) {
+    public void setLocalizacao(String localizacao) {
 
         this.localizacao = localizacao;
 
